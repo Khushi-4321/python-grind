@@ -55,8 +55,8 @@ print(f"average = {average}")
 # In[ ]:
 
 
-Write a function called is_even(n) that returns True if n is even, False if odd.
-Use it to print all even numbers from 1 to 50.
+# Write a function called is_even(n) that returns True if n is even, False if odd.
+# Use it to print all even numbers from 1 to 50.
 
 
 # In[86]:
@@ -69,10 +69,3 @@ def is_even(n):
 for n in range(1, 51):
     if is_even(n):
         print(n)
-
-
-# In[ ]:
-
-
-
-
