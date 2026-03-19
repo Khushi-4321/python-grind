@@ -8,22 +8,29 @@
 # Create one Rectangle and one Circle object.
 # Print their areas with a label.
 
-class area:
-    def __init__(self, shape):
-        self.shape = shape
-        def area(self):
-            print(f"Area:{area}")
+class shape:
 
-class Rectangle (area):
-    def area(self,length, width):
-        area = length * width
+    # def __init__(self, shape):
+        # self.shape = shape
+    def area(self):
+    # print(f"Area:{area}")
+        return 0
 
-class Circle (area):
-    def area(radius):
-        area = 3.14 * radius * radius        
+class Rectangle (shape):
+    def __init__(self,length, width):
+        self.length = length
+        self.width = width
+    def area(self):    
+       return self.length * self.width
+
+class Circle (shape):
+    def __init__(self, radius):
+        self.radius = radius
+    def area(self):
+        return 3.14 * self.radius * self.radius        
 
 r = Rectangle(5,4)
 c = Circle(7)
 
-print(r.area)
-print(c.area)
+print(r.area())
+print(c.area())
