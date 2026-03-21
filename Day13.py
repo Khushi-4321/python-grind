@@ -1,0 +1,1 @@
+print("consistency over perfection")
