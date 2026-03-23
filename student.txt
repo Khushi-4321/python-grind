@@ -1,0 +1,3 @@
+Khushi, marks = 97
+Tisha, marks = 94
+Moksh, marks = 61

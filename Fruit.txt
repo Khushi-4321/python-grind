@@ -1,0 +1,5 @@
+Apple - 50
+Banana - 35
+Orange - 40
+Watermelon - 60
+Grapes - 140
