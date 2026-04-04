@@ -10,3 +10,6 @@ def count_vowels(s):
 
 s= "Vowelcheck"
 print(count_vowels(s))
+
+
+print(" Medical emergency, got some injury but still here for little commit")
