@@ -7,3 +7,5 @@ def is_palindrome(s):
     return is_palindrome(s[1:-1])
 
 print(is_palindrome("racecar"))
+
+print(" better than yesterday but not completely well")
