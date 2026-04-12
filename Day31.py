@@ -15,3 +15,9 @@ even = list(filter(lambda x: x%2 == 0, numbers))
 square = list(map(lambda x: x * x, even))
 
 print(square)
+
+# write one line that gives [4, 16, 36]
+# filter and map both in one line
+# store in result, print result
+result = list(map(lambda x: x * x, list(filter(lambda x: x%2 == 0, numbers))))
+print(result)
