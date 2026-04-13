@@ -10,3 +10,5 @@ students = [
      {"name": "Diana", "marks": 55}
  ]
 
+passed = list(map(lambda x: x["name"], list(filter(lambda x: x["marks"] >=50, students)) ))
+print(passed)
