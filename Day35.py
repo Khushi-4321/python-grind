@@ -17,3 +17,7 @@ students = [
 #   {"name": "Charlie", "grade": "Pass"},
 #   {"name": "Diana", "grade": "Pass"}
 # ]
+
+result = list(map(lambda x: {"name": x["name"], "grade": "Pass" if x["marks"]>= 50 else "Fail"}, students))
+print(result)
+                
