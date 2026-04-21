@@ -10,14 +10,6 @@ students = [
 # - name as is
 # - grade: "Pass" if marks >= 50 else "Fail"
 
-# Expected output:
-# [
-#   {"name": "Alice", "grade": "Pass"},
-#   {"name": "Bob", "grade": "Fail"},
-#   {"name": "Charlie", "grade": "Pass"},
-#   {"name": "Diana", "grade": "Pass"}
-# ]
-
 result = list(map(lambda x: {"name": x["name"], "grade": "Pass" if x["marks"]>= 50 else "Fail"}, students))
 print(result)
                 
