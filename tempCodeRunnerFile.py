@@ -1,8 +1,5 @@
-try:
-    num1 = int(input("Enter first number"))
-    num2 = int(input("Enter second number"))
-    result = num1/num2
-except ValueError: 
-    print("Enter a integer")
-except ZeroDivisionError:
-    print("Cannot divide by zero")
+
+arr = np.array([[1,  2, 3], [4, 5, 6], [7, 8, 9]])
+print(arr.shape)
+print(arr[1])
+print((np.sum(arr[0], axis = 0)))
