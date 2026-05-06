@@ -1,1 +1,3 @@
-# computer Networks Practical tommorow
+# computer Networks Practical tomorrow
+
+# Minor Project Practical tomorrow
